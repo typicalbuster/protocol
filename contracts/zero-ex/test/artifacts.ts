@@ -34,6 +34,7 @@ import * as ILiquidityProvider from '../test/generated-artifacts/ILiquidityProvi
 import * as ILiquidityProviderFeature from '../test/generated-artifacts/ILiquidityProviderFeature.json';
 import * as ILiquidityProviderSandbox from '../test/generated-artifacts/ILiquidityProviderSandbox.json';
 import * as IMetaTransactionsFeature from '../test/generated-artifacts/IMetaTransactionsFeature.json';
+import * as IMultiplexFeature from '../test/generated-artifacts/IMultiplexFeature.json';
 import * as INativeOrdersEvents from '../test/generated-artifacts/INativeOrdersEvents.json';
 import * as INativeOrdersFeature from '../test/generated-artifacts/INativeOrdersFeature.json';
 import * as InitialMigration from '../test/generated-artifacts/InitialMigration.json';
@@ -91,6 +92,7 @@ import * as MixinSushiswap from '../test/generated-artifacts/MixinSushiswap.json
 import * as MixinUniswap from '../test/generated-artifacts/MixinUniswap.json';
 import * as MixinUniswapV2 from '../test/generated-artifacts/MixinUniswapV2.json';
 import * as MixinZeroExBridge from '../test/generated-artifacts/MixinZeroExBridge.json';
+import * as MultiplexFeature from '../test/generated-artifacts/MultiplexFeature.json';
 import * as NativeOrdersCancellation from '../test/generated-artifacts/NativeOrdersCancellation.json';
 import * as NativeOrdersFeature from '../test/generated-artifacts/NativeOrdersFeature.json';
 import * as NativeOrdersInfo from '../test/generated-artifacts/NativeOrdersInfo.json';
@@ -142,7 +144,6 @@ import * as TransformERC20Feature from '../test/generated-artifacts/TransformERC
 import * as TransformerDeployer from '../test/generated-artifacts/TransformerDeployer.json';
 import * as UniswapFeature from '../test/generated-artifacts/UniswapFeature.json';
 import * as WethTransformer from '../test/generated-artifacts/WethTransformer.json';
-import * as WrapperFillFeature from '../test/generated-artifacts/WrapperFillFeature.json';
 import * as ZeroEx from '../test/generated-artifacts/ZeroEx.json';
 import * as ZeroExOptimized from '../test/generated-artifacts/ZeroExOptimized.json';
 export const artifacts = {
@@ -175,17 +176,18 @@ export const artifacts = {
     BootstrapFeature: BootstrapFeature as ContractArtifact,
     LiquidityProviderFeature: LiquidityProviderFeature as ContractArtifact,
     MetaTransactionsFeature: MetaTransactionsFeature as ContractArtifact,
+    MultiplexFeature: MultiplexFeature as ContractArtifact,
     OwnableFeature: OwnableFeature as ContractArtifact,
     SimpleFunctionRegistryFeature: SimpleFunctionRegistryFeature as ContractArtifact,
     TokenSpenderFeature: TokenSpenderFeature as ContractArtifact,
     TransformERC20Feature: TransformERC20Feature as ContractArtifact,
     UniswapFeature: UniswapFeature as ContractArtifact,
-    WrapperFillFeature: WrapperFillFeature as ContractArtifact,
     IBatchFillNativeOrdersFeature: IBatchFillNativeOrdersFeature as ContractArtifact,
     IBootstrapFeature: IBootstrapFeature as ContractArtifact,
     IFeature: IFeature as ContractArtifact,
     ILiquidityProviderFeature: ILiquidityProviderFeature as ContractArtifact,
     IMetaTransactionsFeature: IMetaTransactionsFeature as ContractArtifact,
+    IMultiplexFeature: IMultiplexFeature as ContractArtifact,
     INativeOrdersEvents: INativeOrdersEvents as ContractArtifact,
     INativeOrdersFeature: INativeOrdersFeature as ContractArtifact,
     IOwnableFeature: IOwnableFeature as ContractArtifact,

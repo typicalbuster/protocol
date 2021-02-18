@@ -61,6 +61,7 @@
         "test/generated-artifacts/ILiquidityProviderFeature.json",
         "test/generated-artifacts/ILiquidityProviderSandbox.json",
         "test/generated-artifacts/IMetaTransactionsFeature.json",
+        "test/generated-artifacts/IMultiplexFeature.json",
         "test/generated-artifacts/INativeOrdersEvents.json",
         "test/generated-artifacts/INativeOrdersFeature.json",
         "test/generated-artifacts/IOwnableFeature.json",
@@ -118,6 +119,7 @@
         "test/generated-artifacts/MixinUniswap.json",
         "test/generated-artifacts/MixinUniswapV2.json",
         "test/generated-artifacts/MixinZeroExBridge.json",
+        "test/generated-artifacts/MultiplexFeature.json",
         "test/generated-artifacts/NativeOrdersCancellation.json",
         "test/generated-artifacts/NativeOrdersFeature.json",
         "test/generated-artifacts/NativeOrdersInfo.json",
@@ -169,7 +171,6 @@
         "test/generated-artifacts/TransformerDeployer.json",
         "test/generated-artifacts/UniswapFeature.json",
         "test/generated-artifacts/WethTransformer.json",
-        "test/generated-artifacts/WrapperFillFeature.json",
         "test/generated-artifacts/ZeroEx.json",
         "test/generated-artifacts/ZeroExOptimized.json"
     ],
